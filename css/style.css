@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Light.eot');
+	src: local('☺'), url('../fonts/Gilroy-Light.woff') format('woff'), url('../fonts/Gilroy-Light.ttf') format('truetype'), url('../fonts/Gilroy-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html{
+    font-family: 'Gilroy';
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* -- -----------------------------------------------HEADER------------------------------------------- -- */
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    margin: 39px 433px 38px 80px;
+    width: 41px;
+    height: 39px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin-top: 20px;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 31px;
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #000;
+}
+
+.header-btn {
+    margin-left: 371px;
+    padding: 14px 25px 8px 24px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: #F7941E;
+}
+
+.header-btn:hover {
+    background-color: #F7941E;
+    color:#fff
+}
+
+/* -- ---------------------------------------------HERO--------------------------------------------- -- */
+
+.section-hero {
+    display: flex;
+    height: 700px;
+    background-color:#F1F1F2;
+}
+
+.hero-content { 
+    width: 50%;
+}
+
+.hero-heading {
+    margin: 154px 126px 36px 162px;
+    width: 433px;
+    font-size: 56px;
+    line-height: 68.6px;
+}
+.hero-description {
+    margin: 0 137px 52px 162px;
+    width: 422px;
+    font-size: 20px;
+    line-height: 28.13px;
+}
+
+.hero-btn {
+    margin: 0 359px 126px 162px;
+    padding: 23px 24px 15px 25px;
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24.26px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+}
+
+.hero-btn:hover {
+    color:#fff;
+    background-color: #F7941E;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-img-photo {
+    height: 100%;
+    width: 100%;
+}
+
+/* -- ---------------------------------------------WORK--------------------------------------------- -- */
+
+.section-work {
+    display: flex;
+    height: 600px;
+    background-color: #F1F1F2;
+
+}
+
+.content-work-img {
+    width: 50%;
+    height: 100%;
+}
+
+.work-img-photo {
+    height: 100%;
+}
+
+.content-work {
+    width: 50%;
+    
+}
+
+.work-heading {
+    margin: 164px 413px 23px 102px;
+    min-width: 194px;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.work-description {
+    margin: 0 166px 35px 102px;
+    width: 441px;
+    font-size: 20px;
+    line-height: 28.13px;
+}
+
+.work-btn {
+    margin: 0 407px 104px 102px;
+    padding: 10px 15px;
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24.26px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+}
+
+.work-btn:hover {
+    color: #fff;
+    background-color:#F7941E;
+}
+
+/* -- ---------------------------------------------OCCASIONS--------------------------------------------- -- */
+
+.section-occasions {
+    height: 820px;
+}
+
+.occasions-heading {
+    margin: 96px 509px 23px 509px;
+    width: 422;
+    text-align: center;
+    font-style:normal;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+
+.occasions-decoration {
+    margin: 0 493px 64px 493px;
+    width: 454;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.occasions-list {
+    display: flex;
+    justify-content: center;
+}
+
+.occasions-item {
+    width:270px;
+    height: 436px;
+}
+
+.occasions-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.occasions-item:hover {
+ box-shadow: -10px 10px 0px 0px rgba(0, 0, 0, 0.3), 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.occasions-description {
+    margin: 24px 24px 74px 24px;
+    width: 222px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.occasions-link {
+    margin: 0 179px 24px 24px;
+    padding-bottom: 24px;
+    width: 67px;
+    font-size: 14px;
+    color:#000
+}
+
+/* -- ---------------------------------------------CONTACT--------------------------------------------- -- */
+
+.section-contact {
+    display: flex;
+    height: 240px;
+    background-color: #F7941E;
+}
+
+.contact-descreption {
+    margin: 81px 229px 69px 235px;
+    font-size: 32px;
+}
+
+
+
+.contacts-link-one {
+    margin: 96px 16px;
+    padding: 18px 24px 10px 25px;
+    width: 200px;
+    height: 50px;
+    font-style: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+}
+
+.contacts-link-one:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.contacts-link-two {
+    margin: 96px 20px 94px 0;
+    padding: 18px 24px 10px 25px;
+    width: 200px;
+    height: 50px;
+    font-style: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.contacts-link-two:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/* -- ---------------------------------------------BLOG--------------------------------------------- -- */
+.section-blog-heading {
+    margin: 88px 509px 23px 509px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.section-blog-descreption {
+    margin: 0 447px 71px 447px;
+    min-width: 507px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-container-blog {
+    display: flex;
+    margin: 71px 135px 40px 135px;
+    width: 1170px;
+
+
+
+    background-color: #231F20;
+}
+
+.container-blog-review {
+    padding-left: 78px;
+}
+
+.section-container-blog-photo {
+    max-width: 400px;
+    height: 370px;
+}
+
+.section-container-blog-name {
+    margin-top: 63px;
+    align-items: center;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #fff;
+}
+
+.section-container-blog-reviews {
+     width: 492px;
+     font-size: 48px;
+     font-style: normal;
+     color: #fff;
+}
+
+.section-container-blog-link {
+    font-size: 18px;
+    color: #fff;
+}
+
+.container-blog-list {
+    display: flex;
+    width: 1170px;
+}
+
+.container-blog-item {
+    padding-left: 48px;
+    padding-top: 50px;
+    width: 570px;
+    height: 290px;
+}
+
+
+.container-blog-item:not(:last-child) {
+    margin-right: 30px;
+    margin-left: 135px;
+}
+
+.conteiner-blog-item-strong {
+    width: 473px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.container-blog-item:hover {
+    box-shadow: 5px 5px 0px 0px rgba(96, 76, 76, 0.3), 0 1px 0px rgba(165, 158, 158, 0.1);
+}
+
+.footer {
+    padding: 106px 220px 35px 220px;
+    width: 100%;
+    height: 410px;
+    background-color: #FAFAFA;
+}
+
+.footer-list {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 43px;
+    width: 1000px;
+    border-bottom: 1px solid #000;
+}
+
+.footer-item {
+font-style: bold;
+font-size: 14px;
+line-height: 19.69px;
+}
+
+.footer-item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.footer-logo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    width: 1000px;
+}
+
+.footer-logo-item:not(:last-child) {
+    margin-right: 26px;
+}
